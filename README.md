@@ -29,3 +29,5 @@ The intent is to keep this updated as I find better tools for different things -
 **Please use this as a reference while you go through the React Native getting started guide - this is NOT a replacement for that**, just all the sample code together in a buildable project. 
 
 Enjoy! Hope this helps.  
+
+<em>On Twitter <a href="https://twitter.com/uchechilaka" target="_blank">@uchechilaka</a></em>.

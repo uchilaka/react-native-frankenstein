@@ -10,7 +10,7 @@ in native apps, and would like to leverage what seems to be a larger collection 
 that indicates that Facebook's approach with creating *React Native* had to take into consideration ALL they would like to do with their native 
 app, serving over 1 billion users worldwide
 
-* I'm joining a project that's written in (Telescope)[http://www.telescopeapp.org/], which is <a href="https://www.meteor.com/" target="_blank">Meteor</a> + <a href="https://facebook.github.io/react/docs/hello-world.html">React</a> framework. 
+* I'm joining a project that's written in <a href="http://www.telescopeapp.org/" target="_blank">Telescope</a>, which is <a href="https://www.meteor.com/" target="_blank">Meteor</a> + <a href="https://facebook.github.io/react/docs/hello-world.html">React</a> framework. 
 working with React Native will get me in a *React frame of mind* for participating in that project.  
 
 Please take these considerations with a grain of salt. Your answer, may be NativeScript if you already have an AngularJS skillbase and 

@@ -30,4 +30,28 @@ The intent is to keep this updated as I find better tools for different things -
 
 Enjoy! Hope this helps.  
 
+## 1. Build 
+To build the frankenstein project, complete the following steps:
+
+* Install npm and nodejs 
+If you don't already have these tools yet, get and install them for your platform. 
+
+* Install React Native 
+There's a great guide <a href="https://facebook.github.io/react-native/docs/getting-started.html" target="_blank">here</a>. 
+
+* Clone the repo: 
+```
+git clone https://github.com/uchilaka/react-native-frankenstein.git {your_directory_name}
+```
+
+* Install the node dependencies
+```
+npm install 
+```
+
+* Build & Run the app 
+To run the app for iOS, you need <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" target="_blank">Xcode</a> installed. To run on android, you (probably - ask me later, when I've gotten to it) need <a href="https://developer.android.com/studio/index.html" target="_blank">Android Studio</a>.
+- For iOS (I haven't done any work on android yet): `react-native run-ios`
+- Each time you make a change to the project, one of React Native's great features is that all you need to do is hit `Command⌘ + R` and your simulator will automatically refresh to the latest version of your code. Pretty sweet! 
+
 <em>On Twitter <a href="https://twitter.com/uchechilaka" target="_blank">@uchechilaka</a></em>.

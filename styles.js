@@ -38,6 +38,17 @@ module.exports = StyleSheet.create({
         backgroundColor: '#F5FCFF',
         paddingTop: (Navigator.NavigationBar.Styles.General.NavBarHeight + 25)
     },
+    veryPadded: {
+        padding: 20,
+    },
+    edgeVeryPadded: {
+        paddingLeft: 20,
+        paddingRight: 20
+    },
+    H1: {
+        fontWeight: 'bold',
+        fontSize: 24
+    },
     scrollview: {
     },
     welcome: {
@@ -77,6 +88,9 @@ module.exports = StyleSheet.create({
     secondaryButton: {
         backgroundColor: 'skyblue'
     },
+    lightButton: {
+        backgroundColor: '#ff0'
+    },
     positiveButton: {
         backgroundColor: 'green'
     },
@@ -91,6 +105,9 @@ module.exports = StyleSheet.create({
     buttonText: {
         fontSize: 18,
         textAlign: 'center'
+    },
+    lightButtonText: {
+        color: 'black'
     },
     clearButtonText: {
         color: '#333'

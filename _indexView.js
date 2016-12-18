@@ -69,7 +69,6 @@ export class Hello extends Component {
           </Button>
         <Button
           onPress={Actions.flexbox}
-          title="Flex Dimension Basics"
           containerStyle={[styles.button, styles.secondaryButton]}
           style={[styles.buttonText, styles.secondaryButtonText]}
           >
@@ -98,6 +97,26 @@ export class Hello extends Component {
           >
           Text Input Example
           </Button>
+        <Button
+          onPress={Actions.listView}
+          containerStyle={[styles.button, styles.lightButton]}
+          style={[styles.buttonText, styles.lightButtonText]}
+          >
+          List View Basics
+          </Button>
+        <Button
+          onPress={Actions.remoteSrcListView}
+          containerStyle={[styles.button, styles.secondaryButton]}
+          style={[styles.buttonText, styles.secondaryButtonText]}
+          >
+          Remote Source List View
+          </Button>
+        <Button
+          onPress={Actions.socialLogin}
+          containerStyle={[styles.button]}
+          style={[styles.buttonText, styles.secondaryButtonText]}>
+          Social Login
+        </Button>
       </ScrollView>
     );
   }

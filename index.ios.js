@@ -16,6 +16,9 @@ import FlexboxScene from './scene.flexbox';
 import JustifyContentBasics from './scene.justifyContentBasics';
 import AlignItemsBasics from './scene.alignItemsBasics';
 import PizzaTranslator from './scene.pizzaTranslator';
+import ListViewBasics from './scene.listView';
+import RemoteSourceListView from './scene.remoteSourceListView.js';
+import SocialLogin from './scene.socialLogin';
 
 const scenes = Actions.create(
     <Scene key="root">
@@ -25,6 +28,9 @@ const scenes = Actions.create(
         <Scene key="justifyContent" component={JustifyContentBasics} title="Justified Example" backTitle="Back" />
         <Scene key="alignItems" component={AlignItemsBasics} title="Align Items (Basics)" backTitle="Done" />
         <Scene key="pizzaTranslator" component={PizzaTranslator} title="Text Input Example" backTitle="Home" />
+        <Scene key="listView" component={ListViewBasics} title="List View Example" backTitle="Return" />
+        <Scene key="remoteSrcListView" component={RemoteSourceListView} title="Remote Data Source Example" />
+        <Scene key="socialLogin" component={SocialLogin} title="Social Login" />
     </Scene>
 );
 
